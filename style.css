@@ -1,0 +1,103 @@
+/* body{
+    background-color: grey;
+}
+.main-div{
+    width: 1024px;
+ 
+    
+}
+.first{
+    background-color: antiquewhite
+}
+.second{
+    background-color:aqua;
+    
+    
+}
+.third{
+    background-color: yellow;
+    
+} */
+/* @media only screen and (max-width: 600px) {
+    .first {
+      width: 100%;
+  
+      margin: 0px;
+
+    }
+    .second{
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        
+     
+      
+       
+    }
+    .third{
+        width: 100%;
+        margin: 0px;
+      
+        position: relative;
+
+   
+        /* display: none; */
+    /* }
+    .main-div{
+        margin: 0px;
+        padding: 0px;
+    }
+  } */ 
+  /* .main-div {
+    display: table;
+    table-layout: fixed; /*euqal column width*/
+    /* width: 100%;
+  }
+  
+  .first {
+    display: table-cell;
+    border: 1px solid;
+  }
+  
+  @media (max-width: 768px) { /*breakpoint*/
+    * {
+        box-sizing: border-box;
+      }
+      .main{
+          margin: 100px;
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        text-align: center;
+        
+      }
+      .first {
+        background-color: #e6f703;
+        padding: 30px;
+        flex: 50%;
+      }
+      .second {
+        background-color: #f1f1f1;
+        padding: 10px;
+        flex: 50%;
+      }
+      
+      .third {
+        background-color: dodgerblue;
+        padding: 10px;
+        flex: 50%;
+        font-size: 20px;
+      }
+      .button{
+          color: white;
+          background-color: green;
+      }
+      
+      /* Responsive layout - makes a one column-layout instead of a two-column layout */
+      @media (max-width: 800px) {
+        .seoncd, .third {
+          flex: 100%;
+        }
+      }
