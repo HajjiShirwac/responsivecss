@@ -66,6 +66,9 @@
       .main{
           margin: 100px;
       }
+      body{
+          background-color: gray;
+      }
       .flex-container {
         display: flex;
         flex-wrap: wrap;
@@ -74,18 +77,20 @@
         
       }
       .first {
-        background-color: #e6f703;
+        background-color: antiquewhite;
         padding: 30px;
         flex: 50%;
+        
+        /* display: none; */
       }
       .second {
-        background-color: #f1f1f1;
+        background-color: aqua;
         padding: 10px;
         flex: 50%;
       }
       
       .third {
-        background-color: dodgerblue;
+        background-color: aquamarine;
         padding: 10px;
         flex: 50%;
         font-size: 20px;
